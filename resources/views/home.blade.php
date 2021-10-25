@@ -4,6 +4,11 @@
 
 @section('title', 'Dashboard')
 
+@section('css')
+    <link rel="stylesheet" href="/css/app.css">
+    
+@stop
+
 @section('content_header')
     <h1>Dashboard</h1>
 @stop
@@ -12,10 +17,7 @@
     <p>Welcome to this beautiful admin panel.</p>
 @stop
 
-@section('css')
-    <link rel="stylesheet" href="/css/app.css">
-    
-@stop
+
 
 @section('js')
     <script> console.log('Hi!'); </script>

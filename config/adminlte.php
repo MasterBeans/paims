@@ -257,60 +257,61 @@ return [
         [
             'text' => 'Employer Accounts',
             'url'  => '/accounts',
-            'icon' => 'fas fa-fw fa-address-card',
+            'icon' => 'fas fa-fw fa-users-cog',
         ],
         [
             'text' => 'Billings',
             'url'  => '/billings',
-            'icon' => 'fas fa-fw fa-file-alt',
+            'icon' => 'fas fa-fw fa-file-invoice-dollar',
         ],
         [
             'text' => 'Case Folders',
             'url'  => '/billings',
-            'icon' => 'fas fa-fw fa-file-alt',
+            'icon' => 'fas fa-fw fa-balance-scale',
         ],
         [
             'text'    => 'Engagement',
-            'icon'    => 'fas fa-fw fa-chart-line',
+            'icon'    => 'fas fa-fw fa-envelope',
             'submenu' => [
                 [
                     'text' => 'Virtual Forum',
                     'url'  => '#',
-                    'icon'    => 'fas fa-fw fa-chart-line submenus',
-                    
+                    'icon'    => 'fas fa-fw fa-',
+                
                     
                 ],
                 [
                     'text'    => 'Telephone Calls',
                     'url'     => '#',
-                    'icon'    => 'fas fa-fw fa-chart-line',
+                    'icon'    => 'fas fa-fw fa-',
                
                 ],
                 [
                     'text' => 'E-mail & Messages',
                     'url'  => '#',
-                    'icon'    => 'fas fa-fw fa-chart-line',
+                    'icon'    => 'fas fa-fw fa-',
                 ],
             ],
         ],
         [
             'text'    => 'Reports',
-            'icon'    => 'fas fa-fw fa-chart-line',
+            'icon'    => 'fas fa-fw fa-chart-bar',
             'submenu' => [
                 [
                     'text' => 'PAMMS Monthly',
                     'url'  => '#',
-                    'icon'    => 'fas fa-fw fa-chart-line',
+                    'icon'    => 'fas fa-fw fa-',
                 ],
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    
+                    'text' => 'Accomplishment Report',
+                    'url'  => '#',
+                    'icon'    => 'fas fa-fw fa-',
                
                 ],
                 [
-                    'text' => 'level_one',
+                    'text' => 'Compliance Report',
                     'url'  => '#',
+                    'icon'    => 'fas fa-fw fa-',
                 ],
             ],
         ],
