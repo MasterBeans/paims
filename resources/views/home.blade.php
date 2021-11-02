@@ -87,11 +87,13 @@
       <div class="col-6">
         <div class="card">
           <div class="card-header">
-            <h3 class="card-title">DataTable with minimal features & hover style</h3>
+            <h3 class="card-title">Employer Engagement</h3>
+            
+
           </div>
           <!-- /.card-header -->
           <div class="card-body">
-            <table id="example2" class="table table-bordered table-hover">
+            <table id="example2" class="table table-bordered table-striped">
               <thead>
               <tr>
                 <th>No.</th>
@@ -144,7 +146,48 @@
                 <td>Some Employer Account</td>
                 <td>Request Payroll for January - June 2021</td>
               </tr>
-              
+              <tr>
+                <td>10002</td>
+                <td>Email</td>
+                <td>013030001234</td>
+                <td>Some Employer Account</td>
+                <td>Request Payroll for January - June 2021</td>
+              </tr>
+              <tr>
+                <td>10004</td>
+                <td>Phone Call</td>
+                <td>013030001269</td>
+                <td>Unattended Employer Account</td>
+                <td>Phone unattended.</td>
+              </tr>
+              <tr>
+                <td>10011</td>
+                <td>Email</td>
+                <td>013030001234</td>
+                <td>Some Employer Account</td>
+                <td>Request Payroll for January - June 2021</td>
+              </tr>
+              <tr>
+                <td>10023</td>
+                <td>Email</td>
+                <td>013030001234</td>
+                <td>Some Employer Account</td>
+                <td>Request Payroll for January - June 2021</td>
+              </tr>
+              <tr>
+                <td>10168</td>
+                <td>Email</td>
+                <td>013030001234</td>
+                <td>Some Employer Account</td>
+                <td>Request Payroll for January - June 2021</td>
+              </tr>
+              <tr>
+                <td>10002</td>
+                <td>Email</td>
+                <td>013030001234</td>
+                <td>Some Employer Account</td>
+                <td>Request Payroll for January - June 2021</td>
+              </tr>
               </tbody>
               <tfoot>
                 <tr>
@@ -180,26 +223,26 @@
 </script>
 
 <!-- jQuery -->
-<script src="../../plugins/jquery/jquery.min.js"></script>
+<script src="plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- DataTables  & Plugins -->
-<script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
-<script src="../../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
-<script src="../../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-<script src="../../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
-<script src="../../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
-<script src="../../plugins/jszip/jszip.min.js"></script>
-<script src="../../plugins/pdfmake/pdfmake.min.js"></script>
-<script src="../../plugins/pdfmake/vfs_fonts.js"></script>
-<script src="../../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
-<script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
-<script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+<script src="plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="plugins/jszip/jszip.min.js"></script>
+<script src="plugins/pdfmake/pdfmake.min.js"></script>
+<script src="plugins/pdfmake/vfs_fonts.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.print.min.js"></script>
+<script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 <!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.min.js"></script>
+<script src="{{ url('/') }}/vendor/adminlte/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
+<script src={{ URL::asset('public/vendor/adminlte/dist/js/demo.js') }}></script>
 <!-- Page specific script -->
 <script>
   $(function () {
